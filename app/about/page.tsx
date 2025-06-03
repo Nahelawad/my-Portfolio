@@ -18,7 +18,7 @@ export default function About() {
         
         <main className="flex-grow px-4 py-8 overflow-auto">
           <motion.h1
-            className="text-2xl sm:text-xl md:text-2xl font-extrabold italic font-press-start mt-23"
+            className="text-1xl sm:text-xl md:text-2xl font-extrabold italic font-press-start mt-23"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
