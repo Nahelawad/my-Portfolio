@@ -40,7 +40,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
               >
-            Hey, I'm Nahel — a recent Software Engineering graduate from the University of Northampton with a passion for building things that actually work and help people.
+            Hey, my name is Nahel — a recent Software Engineering graduate from the University of Northampton with a passion for building things that actually work and help people.
             Enthusiastic and highly motivated Software Engineering graduate with hands-on experience in full-stack web development, 
             mobile app prototyping, and UI design. Strong foundation in JavaScript, Kotlin, and Next.js 
             with a passion for building scalable and user-centric applications. 
