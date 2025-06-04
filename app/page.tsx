@@ -1,6 +1,6 @@
 "use client"
 
-import Footer from "@/components/footer";
+
 import Header from "@/components/header";
 import { motion } from "framer-motion";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";

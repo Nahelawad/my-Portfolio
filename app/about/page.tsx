@@ -1,9 +1,9 @@
 "use client";
 
-import Footer from "@/components/footer";
+
 import Header from "@/components/header";
 import { motion } from "framer-motion";
-import { TypeAnimation } from "react-type-animation";
+
 
 export default function About() {
   return (
