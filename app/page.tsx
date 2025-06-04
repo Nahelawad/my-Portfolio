@@ -3,6 +3,7 @@
 
 import Header from "@/components/header";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 
@@ -57,10 +58,23 @@ export default function Home() {
 
           <div className=" flex space-x-4 mt-23">
 
+
+            <Link href="https://github.com/Nahelawad">
             <FaGithub className="text-yellow-400 text-3xl hover:text-white hover:scale-110 transition-transform cursor-pointer"/>
+            </Link>
+
+            <Link href="https://www.instagram.com/nahelawad/">
             <FaInstagram className="text-yellow-400 text-3xl hover:text-white hover:scale-110 transition-transform cursor-pointer"/>
+            </Link>
+
+            <Link href="https://www.linkedin.com/in/nahel-awad-42a103255/">
             <FaLinkedin className="text-yellow-400 text-3xl hover:text-white hover:scale-110 transition-transform cursor-pointer"/>
+            </Link>
+
+            <Link href="mailto:nahelawad123@gmail.com">
             <MdOutlineMail className="text-yellow-400 text-3xl hover:text-white hover:scale-110 transition-transform cursor-pointer"/>
+            </Link>
+            
 
         </div>
 

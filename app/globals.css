@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+
+.font-jersey {
+  font-family: 'Jersey 10',sans-serif;
+}
+
 .font-press-start{
   font-family: 'Press Start 2P',monospace;
 }
@@ -21,6 +26,12 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif ,;
-  background: url('/Background.jpeg') no-repeat center center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('/Background.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }

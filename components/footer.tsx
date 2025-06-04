@@ -5,7 +5,7 @@ const Footer = () =>{
     
     return(
         <>
-        <footer className="italic text-1xl font-press-start">
+        <footer className="italic text-1xl">
             Nahel Awad 2025 ©
         </footer>
         </>
