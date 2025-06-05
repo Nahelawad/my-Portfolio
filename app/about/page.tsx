@@ -16,7 +16,7 @@ export default function About() {
 
         <div className="h-45"/>
 
-        <div className="text-4xl sm:text-6xl lg:text-7xl font-press-start mt-10 text-left ml-23 ">
+        <div className="text-4xl sm:text-6xl lg:text-7xl font-press-start mt-10 text-left ml-7 ">
           <motion.h4
             
             initial={{ opacity: 0, y: 20 }}
@@ -40,8 +40,8 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
               >
-            Hey, my name is Nahel — a recent Software Engineering graduate from the University of Northampton with a passion for building things that actually work and help people.
-            Enthusiastic and highly motivated Software Engineering graduate with hands-on experience in full-stack web development, 
+            Hey, my name is Nahel — a recent Software Engineering graduate from the University of Northampton with a passion for building things that actually work and help people.I am an
+            Enthusiastic and highly person with hands-on experience in full-stack web development, 
             mobile app prototyping, and UI design. Strong foundation in JavaScript, Kotlin, and Next.js 
             with a passion for building scalable and user-centric applications. 
             Currently seeking junior software developer roles to apply and expand my skills in a professional environment.
@@ -51,7 +51,7 @@ export default function About() {
   <motion.img
   src="/Me.jpg"
   alt="Nahel"
-  className="rounded-xl shadow-lg w-auto h-auto object-cover md:w-1/3 max-w-xs transition-all duration-300 hover:scale-110"
+  className="rounded-xl shadow-lg w-auto h-auto object-cover md:w-1/3 max-w-xs transition-all duration-300 hover:scale-110 mb-43"
   initial={{ opacity: 0, x: 20 }}
   animate={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
@@ -59,6 +59,21 @@ export default function About() {
 
 </div>
 
+
+<div className="text-4xl  flex flex-col items-start gap-10 mt-10 px-4 font-press-start mb-37">
+
+  <motion.p
+            
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            My Technical Skills
+          </motion.p>
+
+         
+
+</div>
        
       </div>
     </>

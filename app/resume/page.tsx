@@ -14,11 +14,12 @@ export default function About() {
   </div>
 
   <div className="flex justify-center items-center flex-grow">
-    <button 
-      onClick={() => console.log("Hi")} 
-      className="text-3xl font-press-start text-center hover:cursor-pointer "
+    <button  
+      className="text-3xl font-press-start text-center hover:cursor-pointer hover:animate-bounce "
     >
-      Download My Cv
+      <a href="/NahelCv.pdf" download="Cv">
+       Downlaod My Cv
+      </a>
     </button>
   </div>
 </div>
