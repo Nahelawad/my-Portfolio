@@ -20,7 +20,7 @@ export default function Projects() {
             <p className="text-amber-50 pb-70">AL AHLY STORE</p>
           </div>
           <div className="w-100 h-100 bg-amber-400 rounded-lg shadow-md flex items-center justify-center font-press-start hover:scale-110">
-            <p className="text-amber-50 pb-70">TO DO LIST JAVA</p>
+            <p className="text-amber-50 pb-70">TWEET ME</p>
           </div>
         </div>
       </div>
