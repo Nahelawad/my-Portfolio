@@ -81,15 +81,15 @@ transition={{ duration: 0.8 }}
 >
 
 <div className="flex justify-items-center items-center gap-30 font-jersey  py-10">
-<div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110">
+<div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110 cursor-pointer">
 Web development
 </div>
 
-<div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110">
+<div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110 cursor-pointer">
 UI/UX
 </div>
 
-<div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110 font">
+<div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110 font cursor-pointer">
 DevOps
 </div>
 </div>
