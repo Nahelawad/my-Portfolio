@@ -14,13 +14,13 @@ export default function Projects() {
       <div className="min-h-screen flex items-center justify-center pt-24 px-4">
         <div className="flex gap-30">
           <div className="w-100 h-100 bg-amber-400 rounded-lg shadow-md flex items-center justify-center font-press-start hover:scale-110">
-            <p className="text-amber-50 pb-70">Project 1</p>
+            <p className="text-amber-50 pb-70">SHOPPAY</p>
           </div>
           <div className="w-100 h-100 bg-amber-400 rounded-lg shadow-md flex items-center justify-center font-press-start hover:scale-110">
-            <p className="text-amber-50 pb-70">Project 2</p>
+            <p className="text-amber-50 pb-70">AL AHLY STORE</p>
           </div>
           <div className="w-100 h-100 bg-amber-400 rounded-lg shadow-md flex items-center justify-center font-press-start hover:scale-110">
-            <p className="text-amber-50 pb-70">Project 3</p>
+            <p className="text-amber-50 pb-70">TO DO LIST JAVA</p>
           </div>
         </div>
       </div>

@@ -35,16 +35,16 @@ export default function About() {
 <div className="flex flex-col md:flex-row items-center md:items-start gap-10 mt-10 px-4">
 
    <motion.p
-            className="text-1xl sm:text-xl md:text-3xl font-extrabold font-jersey mt-10"
+            className="text-1xl sm:text-xl md:text-3xl font-jersey mt-10"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
               >
             Hey, my name is Nahel — a recent Software Engineering graduate from the University of Northampton with a passion for building things that actually work and help people.I am an
-            Enthusiastic and highly person with hands-on experience in full-stack web development, 
+            Enthusiastic and highly committed person with hands-on experience in full-stack web development, 
             mobile app prototyping, and UI design. Strong foundation in JavaScript, Kotlin, and Next.js 
             with a passion for building scalable and user-centric applications. 
-            Currently seeking junior software developer roles to apply and expand my skills in a professional environment.
+            Currently seeking junior software developer roles or web development roles to apply and expand my skills in a professional environment.
             Feel free to contact me anytime and I will be happy to help .
           </motion.p>
 
@@ -60,22 +60,48 @@ export default function About() {
 </div>
 
 
-<div className="text-4xl  flex flex-col items-start gap-10 mt-10 px-4 font-press-start mb-37">
+<div className="text-4xl  flex flex-col items-start gap-10 mt-10 px-4 font-press-start mb-10 max-w-md ">
 
-  <motion.p
+<motion.p
             
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            My Technical Skills
-          </motion.p>
+initial={{ opacity: 0, y: 20 }}
+animate={{ opacity: 1, y: 0 }}
+transition={{ duration: 0.8 }}
+>
+Technical Skills
+</motion.p>
+</div>
 
-         
+
+
+<motion.div  
+initial={{ opacity: 0, y: 20 }}
+animate={{ opacity: 1, y: 0 }}
+transition={{ duration: 0.8 }}
+>
+
+<div className="flex justify-items-center items-center gap-30 font-jersey  py-10">
+<div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110">
+Full stack development
+</div>
+
+<div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110">
+UI/UX
+</div>
+
+<div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110 font">
 
 </div>
+</div>
+
+</motion.div>
+
+
+
        
-      </div>
+</div>
+
+
     </>
   );
 }
