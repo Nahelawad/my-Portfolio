@@ -82,7 +82,7 @@ transition={{ duration: 0.8 }}
 
 <div className="flex justify-items-center items-center gap-30 font-jersey  py-10">
 <div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110">
-Full stack development
+Web development
 </div>
 
 <div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110">
@@ -90,7 +90,7 @@ UI/UX
 </div>
 
 <div className="bg-amber-400 mb-23 text-center w-63 rounded-lg text-4xl -mt-2 hover:scale-110 font">
-
+DevOps
 </div>
 </div>
 
