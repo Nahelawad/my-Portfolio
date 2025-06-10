@@ -13,7 +13,7 @@ export default function About() {
     <Header />
   </div>
 
-  <div className="flex justify-center items-center flex-grow font-jersey text-8xl">
+  <div className="grid place-items-left h-screen font-jersey text-8xl">
     My Blogs
   </div>
 </div>

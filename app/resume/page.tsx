@@ -15,7 +15,7 @@ export default function About() {
 
   <div className="flex justify-center items-center flex-grow">
     <button  
-     className="bg-amber-400 text-2xl font-press-start py-2 px-4 rounded-full">
+     className="bg-amber-400 text-2xl font-press-start py-2 px-4 rounded-full cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
       <a href="/NahelCv.pdf" download="Cv">
        Press Me to Downlaod My Cv
       </a>

@@ -1,6 +1,7 @@
 "use client";
 
 import Header from "@/components/header";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
@@ -10,6 +11,15 @@ export default function Projects() {
       </div>
 
 
+
+<motion.div  
+initial={{ opacity: 0, y: 20 }}
+animate={{ opacity: 1, y: 0 }}
+transition={{ duration: 0.8 }}
+>
+
+  
+</motion.div>
 
       <div className="min-h-screen flex items-center justify-center pt-24 px-4">
         <div className="flex gap-30">
